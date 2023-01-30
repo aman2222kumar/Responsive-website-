@@ -115,7 +115,15 @@ footer{
 /*for responsive*/
 
   @media  screen and (max-width:900px) {
-
+    #menuTag{
+      width: 135vw;
+        background-color: rgb(127, 233, 233);
+        height: 3rem;
+      padding-bottom: 4rem;
+      padding-left: 1rem;
+      padding-top: 1rem;
+      
+    }
     #imageContainer{
       width: 133vw;
       height: 60vh;
@@ -151,5 +159,27 @@ footer{
       border: 20px solid rgb(189, 219, 238);
       border-radius: 10px;
       box-shadow: 1px 1.5px 5px 5px;
+    }
+
+    footer{
+      background-color: rgb(140, 243, 219);
+      height: max-content;
+      
+      padding: 2rem;
+      position: fixed;
+      bottom: 0;
+      width: 135vw;
+    }
+    
+  }
+  @media screen and (max-width:500px) {
+    #imageContainer{
+      width: 133vw;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      margin-left: 3rem;
+      align-items: center;
+      z-index: -10;
     }
   }
