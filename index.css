@@ -163,10 +163,7 @@ footer{
       width: 0rem;
       visibility: hidden;
       height: 140vh;
-     /* animation-name: sliding;
-     animation-duration: 0.5s;
-     animation-iteration-count: 1;
-     animation-timing-function: linear; */
+   
     transition: width 0.2s;
   
   
